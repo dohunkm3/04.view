@@ -742,7 +742,7 @@ h -78  0.34  0  C 2050-04-17
 
 ```python
 # --- 전체 데이터에서 조건을 만족하는 셀을 열람한다.
-# 먼저 숫치로만 이루어진 데이터프레임을 생성한다.
+# 먼저 수치로만 이루어진 데이터프레임을 생성한다.
 df2 = pandas.DataFrame(numpy.random.randn(10, 3),  # shape of (10, 3)
                        index=list('abcdefghij'), 
                        columns=list('ABC'))
